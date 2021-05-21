@@ -7,7 +7,7 @@
     logoType: 'text',
     url: '//acfun.cn'
   }, {
-    logo: 'A',
+    logo: 'B',
     logoType: 'text',
     url: '//bilibili.com'
   }];
