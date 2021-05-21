@@ -4,6 +4,7 @@ const x = localStorage.getItem('x')
 const hashMap = JSON.parse(x) || [
   { logo: 'A', logoType: 'text', url: '//acfun.cn'},
   { logo: 'B', logoType: 'text', url: '//bilibili.com'},
+  { logo: 'C', logoType: 'text', url: '//caniuse.com/'},
 ]
 const removeX = (url) => {
   return url.replace('https://','')

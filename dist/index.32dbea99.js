@@ -10,6 +10,10 @@
     logo: 'B',
     logoType: 'text',
     url: '//bilibili.com'
+  }, {
+    logo: 'C',
+    logoType: 'text',
+    url: '//caniuse.com/'
   }];
   const $88ad7e3f1c0a9a7459bddcf0e7fa9bcc$var$removeX = url => {
     return url.replace('https://', '').replace('http://', '').replace('www.', '').replace('//', '').replace(/\/.*/, '');
