@@ -3,7 +3,7 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const hashMap = JSON.parse(x) || [
   { logo: 'A', logoType: 'text', url: '//acfun.cn'},
-  { logo: 'A', logoType: 'text', url: '//bilibili.com'},
+  { logo: 'B', logoType: 'text', url: '//bilibili.com'},
 ]
 const removeX = (url) => {
   return url.replace('https://','')
