@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background: #eee;
+}
+.globalHeader {
+  margin: 20px;
+}
+@media (min-width: 500px) {
+  .globalHeader {
+    margin: 60px 0;
+  }
+}
+.searchFrom {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .searchFrom {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+  }
+}
+.searchFrom > input{
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.searchFrom > button{
+  white-space: nowrap;
+  padding: 0 28px;
+  border: none;
+  border-radius: 4px;
+  background: #0282B9;
+  color: white;
+  font-size: 16px;
+}
+
+.globalMain {
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+}
+.sileList {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .sileList {
+    margin-left: 0;
+    margin-right: -25px;
+    justify-content: flex-start;
+
+  }
+}
+.sileList > li{
+  margin-bottom: 10px;
+}
+@media (min-width: 500px) {
+  .sileList > li {
+    margin-right: 25px;
+  }
+}
+.sileList .sile{
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.sileList .sile > .logo{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  text-transform: uppercase;
+}
+.sileList .sile > .link{
+  font-size: 14px;
+  margin-top: 4px;
+}
+.sileList .sile > .close {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+}
+.sileList .sile:hover > .close {
+  display: block;
+  cursor: default;
+}
+.sileList .addButton{
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  background: white;
+}
+.sileList .addButton .icon{
+  width: 56px;
+  height: 56px;
+}
+.sileList .addButton .text{
+  font-size: 14px;
+  margin-top: 4px;
+}
+.sileList .addButton .icon-wrapper{
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*# sourceMappingURL=index.7c9b0803.css.map */
